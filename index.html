@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Homework 6</title>
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&family=Merriweather:wght@700&display=swap"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <header>
+        <h1 class="heading">Weather Dashboard</h1>
+    </header>
+    <aside class="searchandreturn">
+        <h1 class="sidebar">Search for a City</h1>
+        <form id="search-form">
+            <input id="search-input" class="form-input" type="text" placeholder="New York City">
+            <button class="searchbtn">SEARCH</button>
+        </form>
+        <br>
+        <form id="past-searches">
+            <!-- local storage items stored as buttons go here -->
+        </form>
+    </aside>
+    <div class="current">
+        <!-- current city and time's weather API goes here -->
+    </div>
+    <div class="five-day">
+        <h2>5 Day Forecast</h2>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
